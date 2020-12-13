@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon",
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "DB_NAME=bookmarks_app_test jest --watchAll"
   },
   "keywords": [],
   "author": "",
